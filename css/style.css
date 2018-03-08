@@ -1,0 +1,98 @@
+
+.landing {
+	background-image: url("../img/bg-landing.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-attachment: fixed;
+	max-width: 100%;
+}
+
+
+.main-cont {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	/*box-sizing: border-box;*/
+	/*border: 1px solid red;*/
+}
+
+.row-content-title {
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+}
+
+.content-title {
+	width: 100%;
+	overflow: hidden;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+.font-cstm {
+	font-weight: 600;
+	/*text-align: right;*/
+	padding: 0;
+	margin: 0;
+	/*border-top: 2px solid white;*/
+	/*border-bottom: 2px solid white;*/
+}
+
+.font-cstm1 {
+	font-weight: 600;
+	/*text-align: right;*/
+	padding: 0;
+	margin: 0;
+	border-bottom: 1px solid white;
+}
+
+
+.opaci-txt-title {
+	opacity: 0.8;
+}
+
+.row-content-txt {
+	margin-bottom: 3px;
+}
+
+.content-txt > h6 {
+	font-size: 23px;
+	font-weight: 600;
+	opacity: 0.85;
+	/*margin-top: 7px;*/
+}
+
+.xplor-btn {
+	/*opacity: 0.9;*/ 
+	padding-top: 20px !important;
+	padding-left: 35px !important;
+}
+
+
+
+/*MEDIA QUERIES*/
+
+/*Mobile Styles*/
+@media only screen and (max-width: 415px) {
+	.font-cstm {
+		font-size: 75px;
+	}
+}
+
+/*Tablet Styles*/
+@media only screen and (min-width: 416px) and (max-width: 960px) {
+	.font-cstm {
+		font-size: 120px;
+	}
+
+}
+
+/*Desktop Styles*/
+@media only screen and (min-width: 961px) {
+	.font-cstm {
+		font-size: 145px;
+	}
+}

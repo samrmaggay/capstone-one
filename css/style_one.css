@@ -1,0 +1,71 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.opaci {
+	opacity: 0.7;
+}
+
+.page-body {
+	/*opacity: 0.5*/
+}
+
+.head-logo {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.sxn-amenities {
+	height: 450px;
+}
+
+.sxn-proj {
+	height: 700px;
+	margin-top: 30px;
+	margin-left: 30px;
+	margin-right: 30px;
+	position: center;
+	/*border: 1px solid red;*/
+}
+
+.sxn-more {
+	height: 600px;
+	margin-top: 30px;
+	margin-left: 50px;
+	margin-right: 50px;
+	position: center;
+	border: 1px solid red;
+}
+
+.sxn-inquire {
+	height: 400px;
+	margin-top: 30px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 30px;
+	position: center;
+	/*border-top: 2px solid black;*/
+}
+
+.cel-t1 {
+	/*margin-top: 50px;*/
+	height: 300px;
+	width: 30px;
+	border: 1px solid red;
+}
+
+/*.container {
+	border: 1px solid red;
+}*/
+
+hr {
+/*	margin-top: 30px;*/
+	width: 100%;
+	align-self: center;
+}
+
+h3 {
+	margin-top: 50px;
+}
