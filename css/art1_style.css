@@ -1,0 +1,42 @@
+.home {
+	background-image: url("../img/art1-home.jpg");
+	background-size: cover;
+	background-position: center top;
+	background-repeat: no-repeat;
+	max-width: 100%;
+	background-attachment: fixed;
+}
+
+.opaque {
+	opacity: 0.8;
+}
+
+body {
+display: flex;
+min-height: 100vh;
+flex-direction: column;
+}
+
+main {
+flex: 1 0 auto;
+margin-top: 1em;
+}
+
+.gallery {
+	height: 10em;
+	/*width: 3em;*/
+	/*opacity: 0.5;*/
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-bottom: 10px;
+
+}
+
+.icon-size {
+	margin-top: 12px;
+	font-size: 75px;
+}
+
+.social {
+	font-size: 30px;
+}

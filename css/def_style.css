@@ -1,0 +1,12 @@
+.home {
+	/*background-image: url("../img/art-home.jpg");*/
+	background-size: cover;
+	background-position: center top;
+	background-repeat: no-repeat;
+	max-width: 100%;
+	background-attachment: fixed;
+}
+
+#opaque {
+	opacity: 0.1;
+}
